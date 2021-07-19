@@ -1,0 +1,124 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&family=Righteous&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+div#interface {
+    background-color: #ffffff;
+    width: 1366px;
+    margin: 0px auto 20px auto;    
+    box-shadow: 0px 0px 50px rgba(78, 74, 74,3 );
+}
+
+section#top {  
+    display: flex;
+    align-items: center;              
+    background-image: url(../img/topo.png);
+    height: 280px;                        
+    border-bottom: solid 3px #e2581d;            
+}
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 5.5rem;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    color:#fff;
+    text-shadow: rgb(236, 185, 15) 2px 5px;    
+}
+.flex-container {
+    width: 60vw;
+    margin: auto;
+    display: flex;            
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;    
+    padding: 2rem;            
+}
+
+div.flex-item {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;                                                 
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #292929;
+    display: block;
+    font-size: 22px;
+    line-height: 1.8;            
+}
+
+img {
+    width: 90%;
+    border-radius: 50%;
+}
+
+section#base {
+    background-color: #54646E;
+    border-top: solid 3px #e2581d;
+    padding: 120px;
+}
+
+.btn {
+    box-sizing: border-box;    
+    appearance: none;
+    background-color: #f1672b;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #ffffff;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;    
+    align-self: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 40px;
+    padding: 1em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+} 
+.btn:hover, .btn:focus {
+    color: rgb(255, 255, 255);
+    outline: 0;
+}
+
+.btn {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.btn:hover {
+    box-shadow: 0 0 40px 40px #ffffff inset;
+    color: #f1672b;
+}
+#iHumor {    
+    appearance: none;
+    background-color: transparent;
+    border: 0px solid #e74c3c;    
+    color: #f1672b;    
+    display: flex;    
+    align-self: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2;
+    margin: 10px;
+    padding: 1em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Righteous', cursive;
+    font-weight: 700;
+    outline: 0;
+}
